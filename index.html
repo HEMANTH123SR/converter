@@ -12,28 +12,29 @@
         <div id="first-box">
 <h1>Metric/Imperial Unit Conversion</h1>
 <input id="input-box" type="text">
-<button id="btn-converter">Convert</button>
+<button id="btn-converter" onclick="btnCliked()">Convert</button>
 
 </div>
 <div id="outer-box">
 
 <div id="length" class="innerbox">
 <h3>Length(Meter/Feet)</h3>
-<p>0 meters = 0 feet</p>
+<p id="l-p">0 meters = 0 feet</p>
 </div>
 
 <div id="volume" class="innerbox">
 <h3>Volume(Liters/Gallons)</h3>
-<p>0 liters = 0 gallons </p>
+<p  id="v-p">0 liters = 0 gallons </p>
 </div>
    
 
     <div id="mass" class="innerbox">
 <h3>Mass(Kilograms/Pounds)</h3>
-<p>0 kilos = 0 pounds </p>    
+<p id="m-p">0 kilos = 0 pounds </p>    
 </div>
 
 </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
